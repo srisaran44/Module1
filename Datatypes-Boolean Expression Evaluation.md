@@ -16,6 +16,26 @@ To write a Python program that evaluates and prints the results of boolean and a
 
 ## 💻 Program
 Add Code here
+# Program to evaluate boolean and arithmetic expressions
+def evaluate_expressions():
+    print("True + True =", True + True)       # 1 + 1 = 2
+    print("True + False =", True + False)     # 1 + 0 = 1
+    print("False + False =", False + False)   # 0 + 0 = 0
+    
+    print("True * 5 =", True * 5)             # 1 * 5 = 5
+    print("False * 5 =", False * 5)           # 0 * 5 = 0
+    
+    print("True == 1:", True == 1)            # True
+    print("False == 0:", False == 0)          # True
+    print("True and False =", True and False) # False
+    print("True or False =", True or False)   # True
+    print("not True =", not True)             # False
+
+# Driver code
+evaluate_expressions()
+
 
 ## Output
+<img width="1433" height="709" alt="image" src="https://github.com/user-attachments/assets/91763b58-34a2-4d45-ae64-333ad49ef288" />
+
 ## Result
